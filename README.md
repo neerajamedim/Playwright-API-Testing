@@ -37,3 +37,5 @@ This is a Playwright API testing framework designed to demonstrate playwright ap
 
 ### Playwright HTML Test Report
 ![Playwright HTML Test Report](./assets/html-test-report.PNG?raw=true "Playwright HTML Test Report")
+# Playwright-API-Testing
+Playwright API Testing using Typescript
