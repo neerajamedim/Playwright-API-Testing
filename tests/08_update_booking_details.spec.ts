@@ -20,7 +20,7 @@ test('should be able to update the booking details', async ({ request }) => {
     console.log("New Token is: " + token);
 
     // PUT
-    const updateRequest = await request.put(`/booking/1`, {
+    const updateRequest = await request.put(`/booking/1410`, {
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json',

@@ -21,7 +21,7 @@ test('should be able to partial update the booking details', async ({ request })
 
     // PATCH
 
-    const partialUpdateRequest = await request.patch(`/booking/1`, {
+    const partialUpdateRequest = await request.patch(`/booking/1410`, {
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
