@@ -1,7 +1,6 @@
-// @ts-check
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
-var token
+let token: string;
 
 test('should be able to partial update the booking details', async ({ request }) => {
 

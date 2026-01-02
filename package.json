@@ -17,9 +17,13 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
-    "@playwright/test": "^1.37.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
     "luxon": "^3.4.0",
     "npm-check-updates": "^16.11.1",
     "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }

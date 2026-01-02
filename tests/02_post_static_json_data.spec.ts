@@ -1,10 +1,10 @@
-// @ts-check
-const { test, expect } = require('@playwright/test');
-const bookingDetails = require('../test-data/booking-details.json');
+import { test, expect } from '@playwright/test';
+import bookingDetails from '../test-data/booking-details.json';
+
 //testcase 2
 test('should be able to create a booking', async ({ request }) => {
-    const response = await request.post(`/booking`, {
-        data: bookingDetails
+    const response = await request.post('/booking', {
+        data: bookingDetails // Using external JSON data
     });
     console.log(await response.json());
     expect(response.ok()).toBeTruthy();
