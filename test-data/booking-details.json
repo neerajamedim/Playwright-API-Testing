@@ -1,0 +1,11 @@
+{
+    "firstname": "Neeraja",
+    "lastname": "Medim",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-12-29",
+        "checkout": "2025-12-31"
+    },
+    "additionalneeds": "Breakfast"
+}
